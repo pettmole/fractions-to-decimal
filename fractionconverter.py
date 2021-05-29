@@ -5,13 +5,10 @@ def math():
     denominator = int(input())
     answer = numerator / denominator
     print(answer)
-    print("type 'y' for another question")
+    print("press 'y' for another question")
     another_question = input()
     if another_question == "y":
         math()
 
 
-print("press 'y' to start")
-start = input()
-if start == "y":
-    math()
+math()
