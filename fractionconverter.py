@@ -6,62 +6,12 @@ def math():
     answer = numerator / denominator
     print(answer)
     print("type 'y' for another question")
+    another_question = input()
+    if another_question == "y":
+        math()
 
 
 print("press 'y' to start")
 start = input()
 if start == "y":
-    math()
-
-another_question = input()
-
-if another_question == "y":
-    math()
-    another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
-    math()
-another_question = input()
-
-if another_question == "y":
     math()
