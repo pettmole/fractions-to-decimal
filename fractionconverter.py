@@ -9,6 +9,9 @@ def math():
     another_question = input()
     if another_question == "y":
         math()
+    else:
+        print("wrong button(s) but don't worry! i'll help")
+        math()
 
 
 math()
